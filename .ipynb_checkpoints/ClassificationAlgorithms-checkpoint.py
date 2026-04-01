@@ -8,9 +8,9 @@ from sympy import flatten
 from sklearn.utils import shuffle
 from sklearn.model_selection import train_test_split
 from bayes import naiveBayes
-from knn import kNearestNeighbours
-from onerule import oneRule
-from decisionTree import *
+import knn
+import onerule
+import decisionTree
 
 # Loading the dataset
 numDataset = numpy.loadtxt("seeds_dataset.txt")
